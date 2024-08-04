@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Streamer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Anime Streamer</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#favorites">Favorites</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Featured Anime</h2>
+            <div class="video-container">
+                <iframe src="https://youtu.be/ikpuiYy4NOc?si=y8roFi_Vzxe-W-kQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="trending">
+            <h2>Trending Anime</h2>
+            <div class="anime-grid">
+                <!-- Repeat this block for each anime -->
+                <div class="anime-item">
+                    <img src="https://via.placeholder.com/200x300" alt="Anime Title">
+                    <h3>Anime Title</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="favorites">
+            <h2>Your Favorites</h2>
+            <div class="anime-grid">
+                <!-- Repeat this block for each favorite anime -->
+                <div class="anime-item">
+                    <img src="https://via.placeholder.com/200x300" alt="Favorite Anime Title">
+                    <h3>Favorite Anime Title</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Anime Streamer. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
